@@ -10,7 +10,7 @@ function App() {
 
   return (
     <section className="w-full h-dvh flex justify-center items-center">
-      {/* <Credits /> */}
+      <Credits />
       <MotionConfig transition={{ type: 'tween', duration: .15, ease: 'easeOut' }}>
         <motion.div
           style={{ 
